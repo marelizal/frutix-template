@@ -1,3 +1,10 @@
+/**
+ * Componente CarrouselPayments
+ * El componente contiene un carrousel con los medios de pago disponibles.
+ *
+ * @returns 
+ * 
+ */
 function CarrouselPayments() {
     return <div className="w-full p-[25px_18 sm:p-[27px_54px] text-center p-4 border-y border-black/15 border-dashed bg-slate-300 bg-cyan-50">
         <div className="border-2 border-dashed border-black/15 inline-block p-4">TITULO DE LA SECCION</div>

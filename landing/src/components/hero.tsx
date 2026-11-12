@@ -1,3 +1,13 @@
+/**
+ * Componente Hero
+ * Este componente contiene titulo y subtitulo, seccion informativa, nombres de
+clientes que ya realizaron pedidos, y boton de pedir por whatsapp y contiene la 
+barra de navegacion.
+ *
+ * @returns 
+ * 
+ */
+
 import Navbar from "./header";
 
 function Hero() {
