@@ -28,7 +28,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
 
       <body className="min-h-full flex flex-col m-0 bg-slate text-slate-900 font-sans antialaised box-border">
         {/* Aca se injecta todo el contenido de paginas etc. este es el punto de entrada de nuestra app. */}
-        <main w-full bg-white box-border>
+        <main className="w-full bg-white box-border">
            {children}
         </main>
       </body>
