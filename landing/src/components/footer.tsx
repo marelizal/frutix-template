@@ -13,8 +13,8 @@ function Footer() {
   return (
     <footer className="bg-white border-t border-gray-200">
       {/* Grilla principal de cuatro columnas */}
-      <div className="px-6 py-2">
-        <div className="grid grid-cols-1 border-b border-gray-200 md:grid-cols-4 gap-6 pb-10 ">
+      <div className="px-6 py-6">
+        <div className="grid grid-cols-1 border-b border-gray-200 md:grid-cols-4 gap-6 pb-6 ">
           {/* Columna 1: Marca / Sobre nosotros */}
           <div>
             <h3 className="text-base font-bod uppercase text-gray-900 mb-3">
@@ -94,7 +94,7 @@ function Footer() {
             >
              <MessageCircleText color="white"/> Escribinos al whatsapp
             </a>
-            <p className="text-xs text-gray-500 mt-2 text-center">Garantia de cambio si algo llega en mal estado</p>
+            <p className="text-xs text-gray-500 mt-2">Garantia de cambio si algo llega en mal estado</p>
           </div>
         </div>
         {/* Barra inferior copyright */}
