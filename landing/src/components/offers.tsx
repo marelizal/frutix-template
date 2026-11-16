@@ -109,13 +109,13 @@ function Offers() {
             <div className="flex flex-cols sm:flex-row items-center text-center sm:text-left gap-1 sm:gap-1 mb-4">
               <h2 className="text-black text-2xl font-bold">$12.000</h2> <span className="text-xs  text-gray-300">ARS</span>
             </div>
-            <p className="text-xs text-gray-500 font-semibold flex items-center gap-1.5">
+            <p className="text-xs text-gray-500 my-1 font-semibold flex items-center gap-1.5">
               <span><Check className="w-3 h-3 text-green-500 " /></span>Manzanas rojas crujientes y bananas
             </p>
-            <p className="text-xs text-gray-500 font-semibold flex items-center gap-1.5">
+            <p className="text-xs text-gray-500 my-1 font-semibold flex items-center gap-1.5">
               <span><Check className="w-3 h-3 text-green-500 " /></span>Citricos dulces de estacion
             </p>
-            <p className="text-xs text-gray-500 font-semibold flex items-center gap-1.5">
+            <p className="text-xs text-gray-500 my-1 font-semibold flex items-center gap-1.5">
               <span><Check className="w-3 h-3 text-green-500 " /></span>Verduras basicas para la semana
             </p>
             <a
