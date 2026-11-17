@@ -17,7 +17,7 @@ interface StepItem {
 
 function Steps() {
   // tipamos y aseguramos que los datos importados de json cumplan con la estructura
-  const steps: StepItem[] = stepsdata as StepItem[];
+  const steps = stepsdata as StepItem[];
   return (
     <section className="bg-gray-50 p-3 py-12 ">
       {/* Encabezado */}
@@ -29,31 +29,24 @@ function Steps() {
         <span className="text-sm text-gray-500">[Proceso Directo]</span>
       </div>
 
-      {/* Aqui comienza el contenedor de las tarjetas */}
+      {/* Contenedor de tarjetas mapeadas */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 w-full">
-    
-
-      
-     
-
-        {steps.map((item)=>{
-         <div className="bg-white border border-gray-200 rounded-xl p-6 flex flex-start gap-4">
-          <span className="w-9 h-9 rounded-lg text-red-600 font-bold flex items-center justify-center shrink-0 mb-2">
-            3
-          </span>
-          <div>
-            <h3 className="uppercase text-lg font-bold text-gray-900 mb-1">
-              Pagas facil
-            </h3>
-            <p className="text-sm text-gray-500">
-              Abonas al recibir: Mercado Pago Transferencia o Efectivo con 10%
-              off
-            </p>
+        {steps.map((item: StepItem) => (
+          <div className="bg-white border border-gray-200 rounded-xl p-6 flex flex-start gap-4">
+            <span className="w-9 h-9 rounded-lg text-red-600 font-bold flex items-center justify-center shrink-0 mb-2">
+              item
+            </span>
+            <div>
+              <h3 className="uppercase text-lg font-bold text-gray-900 mb-1">
+                Pagas facil
+              </h3>
+              <p className="text-sm text-gray-500">
+                Abonas al recibir: Mercado Pago Transferencia o Efectivo con 10%
+                off
+              </p>
+            </div>
           </div>
-        </div>
-        })}
-      
-        
+        ))}
       </div>
     </section>
   );
