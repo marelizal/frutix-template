@@ -53,7 +53,7 @@ function Offers() {
               <span><Check className="w-3 h-3 text-green-500 " /></span>1 kg tomate redondo maduro
             </p>
             <a
-              className="inline-flex items-center justify-center gap-2 w-full bg-white text-black uppercase text-sm font-bold mt-8 border border-gray-300 rounded-xl py-2.5 px-4 hover:bg-green-500 transition-colors"
+              className="inline-flex items-center justify-center gap-2 w-full bg-white text-black uppercase text-sm font-bold mt-14 border border-gray-300 rounded-xl py-2.5 px-4 hover:bg-green-500 transition-colors"
               href=""
             >
              <MessageCircleText color="black"/> pedir por whatsapp
@@ -119,7 +119,7 @@ function Offers() {
               <span><Check className="w-3 h-3 text-green-500 " /></span>Verduras basicas para la semana
             </p>
             <a
-              className="inline-flex items-center justify-center gap-2 w-full bg-white text-black uppercase text-sm font-bold mt-8 border border-gray-300 rounded-xl py-2.5 px-4 hover:bg-green-500 transition-colors"
+              className="inline-flex items-center justify-center gap-2 w-full bg-white text-black uppercase text-sm font-bold mt-14 border border-gray-300 rounded-xl py-2.5 px-4 hover:bg-green-500 transition-colors"
               href=""
             >
              <MessageCircleText color="black"/> pedir por whatsapp

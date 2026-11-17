@@ -8,13 +8,19 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-   <main>
-    <Navbar />
-    <Hero />
-     <CarrouselPayments />
-     <Offers />
-     <Steps />
-     <Footer />
-   </main>
+    <main>
+      {/* Este es el menu de navegacion */}
+      <Navbar />
+      {/* Este es el componente hero */}
+      <Hero />
+      {/* Este es el componente carrousel */}
+      <CarrouselPayments />
+      {/* Este es el componente offers */}
+      <Offers />
+      {/* Estes es el componente steps */}
+      <Steps />
+      {/* Este es el componente footer */}
+      <Footer />
+    </main>
   );
 }
