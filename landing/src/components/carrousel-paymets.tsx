@@ -1,3 +1,5 @@
+"use client"
+
 /**
 - Componente PaymentMethodsCarousel
 - Carrusel horizontal infinito de medios de pago con desvanecimiento lateral.  
@@ -20,7 +22,11 @@ function PaymentMethodsCarousel() {
 
   // 2. Tipamos y aseguramos que los datos importados cumplan con la estructura
 
-  
+  const methods=paymentData.carousel as CarrouselItem[]
+
+  // duplicamos el arreglo para lograr el bucle infinito sin cortes
+
+  const duplicatedMethods=[...methods,...methods]
 
   return (
     <section className="w-full py-10 border-y border-neutral-200/80 bg-white overflow-hidden">

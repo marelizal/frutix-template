@@ -57,5 +57,34 @@
       "tag": "(MIX BALANCEADO)",
       "featured": false
     }
-  ]
+    
+  ],
+  "carousel": [
+    {
+      "id": 1,
+      "source":" ",
+      "alt":"esta imagen representa al metodo de pago Mercado Pago"
+    },
+    {
+      "id": 2,
+      "source":" ",
+      "alt":"esta imagen representa al metodo de pago Naranja X"
+    },
+    {
+      "id": 3,
+      "source":" ",
+      "alt":"esta imagen representa al metodo de pago Uala"
+    },
+    {
+      "id": 4,
+      "source":" ",
+      "alt":"esta imagen representa al metodo de pago Visa"
+    },
+    {
+      "id": 5,
+      "source":" ",
+      "alt":"esta imagen representa al metodo de pago Efectivo"
+    }
+
+    ]
 }
