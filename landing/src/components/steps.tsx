@@ -16,7 +16,7 @@ interface StepItem {
 
 function Steps() {
   // 2. Tipamos y aseguramos que los datos importados del JSON cumplan con la estructura aquí
-  const steps = stepsdata as StepItem[];
+  const steps = stepsdata.steps as StepItem[];
 
   return (
     <section className="bg-gray-50 p-3 py-12">
@@ -31,17 +31,17 @@ function Steps() {
       {/* Contenedor de tarjetas mapeadas */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 w-full">
         {steps.map((item: StepItem) => (
-          <div  className="bg-white border border-gray-200 rounded-xl p-6 flex flex-start gap-4" >
+          <div key={item.step} className="bg-white border border-gray-200 rounded-xl p-6 flex flex-start gap-4" >
             {/* 3. Usamos llaves {} para renderizar el número y activar el autocompletado */}
             <span className="w-9 h-9 rounded-lg text-red-600 font-bold flex items-center justify-center shrink-0 mb-2">
-              
+            {item.step}  
             </span>
             <div>
               <h3 className="uppercase text-lg font-bold text-gray-900 mb-1">
-                
+               {item.title} 
               </h3>
               <p className="text-sm text-gray-500">
-                
+               {item.description} 
               </p>
             </div>
           </div>

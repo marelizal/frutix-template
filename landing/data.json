@@ -1,17 +1,61 @@
-[
+{
+  "steps": [
     {
-        "step":1,
-        "title":"Elegir combo por whatsapp",
-        "description":"Nos escribis y te lo preparamos en un toque"
+      "step": 1,
+      "title": "Elegir combo por whatsapp",
+      "description": "Nos escribis y te lo preparamos en un toque"
     },
     {
-        "step":2,
-        "title":"Te lo alcanzamos o retiras",
-        "description":"Reparto en el dia en todo el barrio o retiro rapido por el mostrador"
+      "step": 2,
+      "title": "Te lo alcanzamos o retiras",
+      "description": "Reparto en el dia en todo el barrio o retiro rapido por el mostrador"
     },
     {
-        "step":3,
-        "title":"Pagas facil",
-        "description":"Abonas al recibir: Mercado Pago Transferencia o Efectivo con 10% off"
+      "step": 3,
+      "title": "Pagas facil",
+      "description": "Abonas al recibir: Mercado Pago Transferencia o Efectivo con 10% off"
     }
-]
+  ],
+  "offers": [
+    {
+      "ofer": 1,
+      "title": "Combo esencial",
+      "description": "Verduras indispensables de olla y ensalada rapida de todos los dias.",
+      "price": "9.500",
+      "items": [
+        "Papa, cebolla, zanahoria (4 kg total)",
+        "1 planta de lechuga mantecosa",
+        "1 kg tomate redondo maduro"
+      ],
+      "tag": "(OLLA & ENSALADA)",
+      "featured": false
+    },
+    {
+      "ofer": 2,
+      "title": "Cajon Familiar Don Ramon",
+      "description": "Rinde 5 a 7 dias para 3-4 personas Seleccion premium de huerta.",
+      "price": "14.500",
+      "items": [
+        "8 a 10 kg netos de huerta",
+        "Papas, tomates, zanahorias, zapallitos",
+        "Hojas verdes crocantes + 2 paltas Hass",
+        "Limones bonificados de regalo"
+      ],
+      "tag": "(COSECHA COMPLETA)",
+      "featured": true
+    },
+    {
+      "ofer": 3,
+      "title": "Combo Frutas & Huerta",
+      "description": "El equilibrio perfecto entre frutas dulces de estacion y verduras frescas.",
+      "price": "12.000",
+      "items": [
+        "Manzanas rojas crujientes y bananas",
+        "Citricos dulces de estacion",
+        "Verduras basicas para la semana"
+      ],
+      "tag": "(MIX BALANCEADO)",
+      "featured": false
+    }
+  ]
+}
