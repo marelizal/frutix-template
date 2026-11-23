@@ -97,7 +97,7 @@ function Offers() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <MessageCircleText color="black" /> pedir por whatsapp
+              <MessageCircleText color={offer.featured ? "white" : "black"} /> pedir por whatsapp
             </a>
           </div>
         )})}
