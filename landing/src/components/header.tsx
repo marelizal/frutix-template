@@ -7,6 +7,8 @@
  * 
  */
 
+import { MessageCircleText } from "lucide-react";
+
 
 function Navbar() {
     return (
@@ -30,8 +32,8 @@ function Navbar() {
             </div>
 
             {/* Boton para la comunicacion directa con el vendedor */}
-            <div className="border-2 border-dashed border-black/15 bg-indigo-300 text-slate-900 rounded-full w-[36px] h-[36px] flex justify-center items-center font-bold">
-                M
+            <div className="border-2 border-dashed border-black/15 bg-black text-slate-900 rounded-full w-[36px] h-[36px] flex justify-center items-center font-bold">
+                <MessageCircleText color="white" />
             </div>
            </div> 
         </nav>
