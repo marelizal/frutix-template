@@ -62,28 +62,28 @@
   "carousel": [
     {
       "id": 1,
-      "source":" ",
+      "source":"/mercadopago.svg",
       "alt":"esta imagen representa al metodo de pago Mercado Pago"
     },
     {
       "id": 2,
-      "source":" ",
+      "source":"/naranjax.png",
       "alt":"esta imagen representa al metodo de pago Naranja X"
     },
     {
       "id": 3,
-      "source":" ",
-      "alt":"esta imagen representa al metodo de pago Uala"
+      "source":"/mastercard.svg",
+      "alt":"esta imagen representa al metodo de pago MasterCard"
     },
     {
       "id": 4,
-      "source":" ",
+      "source":"/visa.png",
       "alt":"esta imagen representa al metodo de pago Visa"
     },
     {
       "id": 5,
-      "source":" ",
-      "alt":"esta imagen representa al metodo de pago Efectivo"
+      "source":"/bancochaco.png",
+      "alt":"esta imagen representa al metodo de pago NBCH"
     }
 
     ]
