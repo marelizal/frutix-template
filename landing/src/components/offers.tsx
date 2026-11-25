@@ -83,7 +83,7 @@ function Offers() {
             {offer.items.map((detail: string, index: number) => (
               <p key={index} className="text-xs text-gray-500 my-1 font-semibold flex items-center gap-1.5">
                 <span>
-                  <Check className="w-3 h-3 text-green-500 " />
+                  <Check className={`w-4 h-4 font-bold ${offer.featured ? "text-red-600" :"text-green-400"} "`} />
                 </span>
                 {detail}
               </p>
@@ -91,8 +91,8 @@ function Offers() {
 
             <a
               className={`inline-flex items-center justify-center gap-2 w-full text-black
-               uppercase text-sm font-bold mt-14 border border-gray-300 rounded-xl py-2.5 px-4 hover:bg-red-300 hover:text-white
-               transition-colors ${offer.featured ? "bg-red-600 text-white" :"bg-white text-black"}`}
+               uppercase text-sm font-bold mt-14 border  rounded-xl py-2.5 px-4 hover:bg-red-300 hover:text-white
+               transition-colors ${offer.featured ? "bg-red-600 border-red-600 text-white" :"bg-white border-gray-300 text-black"}`}
               href={whatsappUrl}
               target="_blank"
               rel="noopener noreferrer"
