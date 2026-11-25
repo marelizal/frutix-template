@@ -24,7 +24,7 @@ function Navbar() {
            
           <div className="ml-auto flex items-center gap-4"> 
             {/* Estado del negocio y Mensaje corto */}
-            <div className="bg-white items-center flex text-xs rounded-full gap-2 px-2 ">
+            <div className="bg-white items-center flex text-xs rounded-full gap-2 px-2">
                 <span className="text-green-600 text-lg">•</span>
                 <span className="font-semibold text-gray-800">Abierto hoy</span>
                 <span className="text-gray-300">•</span>
